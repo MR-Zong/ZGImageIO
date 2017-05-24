@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8B695F1ED590A700733198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B695E1ED590A700733198 /* main.m */; };
+		EF8B69621ED590A700733198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69611ED590A700733198 /* AppDelegate.m */; };
+		EF8B69651ED590A700733198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69641ED590A700733198 /* ViewController.m */; };
+		EF8B69681ED590A700733198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B69661ED590A700733198 /* Main.storyboard */; };
+		EF8B696A1ED590A700733198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8B69691ED590A700733198 /* Assets.xcassets */; };
+		EF8B696D1ED590A700733198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8B696B1ED590A700733198 /* LaunchScreen.storyboard */; };
+		EF8B69781ED590A700733198 /* ZGImageIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69771ED590A700733198 /* ZGImageIOTests.m */; };
+		EF8B69831ED590A700733198 /* ZGImageIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69821ED590A700733198 /* ZGImageIOUITests.m */; };
+		EF8B69911ED590C300733198 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8B69901ED590C300733198 /* sky.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8B69741ED590A700733198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8B69521ED590A700733198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8B69591ED590A700733198;
+			remoteInfo = ZGImageIO;
+		};
+		EF8B697F1ED590A700733198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8B69521ED590A700733198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8B69591ED590A700733198;
+			remoteInfo = ZGImageIO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8B695A1ED590A700733198 /* ZGImageIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGImageIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B695E1ED590A700733198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF8B69601ED590A700733198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF8B69611ED590A700733198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF8B69631ED590A700733198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF8B69641ED590A700733198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF8B69671ED590A700733198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8B69691ED590A700733198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8B696C1ED590A700733198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8B696E1ED590A700733198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B69731ED590A700733198 /* ZGImageIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGImageIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B69771ED590A700733198 /* ZGImageIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGImageIOTests.m; sourceTree = "<group>"; };
+		EF8B69791ED590A700733198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B697E1ED590A700733198 /* ZGImageIOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGImageIOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8B69821ED590A700733198 /* ZGImageIOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGImageIOUITests.m; sourceTree = "<group>"; };
+		EF8B69841ED590A700733198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8B69901ED590C300733198 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8B69571ED590A700733198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B69701ED590A700733198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B697B1ED590A700733198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8B69511ED590A700733198 = {
+			isa = PBXGroup;
+			children = (
+				EF8B695C1ED590A700733198 /* ZGImageIO */,
+				EF8B69761ED590A700733198 /* ZGImageIOTests */,
+				EF8B69811ED590A700733198 /* ZGImageIOUITests */,
+				EF8B695B1ED590A700733198 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8B695B1ED590A700733198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B695A1ED590A700733198 /* ZGImageIO.app */,
+				EF8B69731ED590A700733198 /* ZGImageIOTests.xctest */,
+				EF8B697E1ED590A700733198 /* ZGImageIOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8B695C1ED590A700733198 /* ZGImageIO */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B69601ED590A700733198 /* AppDelegate.h */,
+				EF8B69611ED590A700733198 /* AppDelegate.m */,
+				EF8B69631ED590A700733198 /* ViewController.h */,
+				EF8B69641ED590A700733198 /* ViewController.m */,
+				EF8B69661ED590A700733198 /* Main.storyboard */,
+				EF8B69691ED590A700733198 /* Assets.xcassets */,
+				EF8B696B1ED590A700733198 /* LaunchScreen.storyboard */,
+				EF8B696E1ED590A700733198 /* Info.plist */,
+				EF8B695D1ED590A700733198 /* Supporting Files */,
+			);
+			path = ZGImageIO;
+			sourceTree = "<group>";
+		};
+		EF8B695D1ED590A700733198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B69901ED590C300733198 /* sky.jpg */,
+				EF8B695E1ED590A700733198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8B69761ED590A700733198 /* ZGImageIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B69771ED590A700733198 /* ZGImageIOTests.m */,
+				EF8B69791ED590A700733198 /* Info.plist */,
+			);
+			path = ZGImageIOTests;
+			sourceTree = "<group>";
+		};
+		EF8B69811ED590A700733198 /* ZGImageIOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8B69821ED590A700733198 /* ZGImageIOUITests.m */,
+				EF8B69841ED590A700733198 /* Info.plist */,
+			);
+			path = ZGImageIOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8B69591ED590A700733198 /* ZGImageIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B69871ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIO" */;
+			buildPhases = (
+				EF8B69561ED590A700733198 /* Sources */,
+				EF8B69571ED590A700733198 /* Frameworks */,
+				EF8B69581ED590A700733198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGImageIO;
+			productName = ZGImageIO;
+			productReference = EF8B695A1ED590A700733198 /* ZGImageIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8B69721ED590A700733198 /* ZGImageIOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B698A1ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIOTests" */;
+			buildPhases = (
+				EF8B696F1ED590A700733198 /* Sources */,
+				EF8B69701ED590A700733198 /* Frameworks */,
+				EF8B69711ED590A700733198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8B69751ED590A700733198 /* PBXTargetDependency */,
+			);
+			name = ZGImageIOTests;
+			productName = ZGImageIOTests;
+			productReference = EF8B69731ED590A700733198 /* ZGImageIOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8B697D1ED590A700733198 /* ZGImageIOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8B698D1ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIOUITests" */;
+			buildPhases = (
+				EF8B697A1ED590A700733198 /* Sources */,
+				EF8B697B1ED590A700733198 /* Frameworks */,
+				EF8B697C1ED590A700733198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8B69801ED590A700733198 /* PBXTargetDependency */,
+			);
+			name = ZGImageIOUITests;
+			productName = ZGImageIOUITests;
+			productReference = EF8B697E1ED590A700733198 /* ZGImageIOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8B69521ED590A700733198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Zong;
+				TargetAttributes = {
+					EF8B69591ED590A700733198 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF8B69721ED590A700733198 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8B69591ED590A700733198;
+					};
+					EF8B697D1ED590A700733198 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8B69591ED590A700733198;
+					};
+				};
+			};
+			buildConfigurationList = EF8B69551ED590A700733198 /* Build configuration list for PBXProject "ZGImageIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8B69511ED590A700733198;
+			productRefGroup = EF8B695B1ED590A700733198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8B69591ED590A700733198 /* ZGImageIO */,
+				EF8B69721ED590A700733198 /* ZGImageIOTests */,
+				EF8B697D1ED590A700733198 /* ZGImageIOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8B69581ED590A700733198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B696D1ED590A700733198 /* LaunchScreen.storyboard in Resources */,
+				EF8B69911ED590C300733198 /* sky.jpg in Resources */,
+				EF8B696A1ED590A700733198 /* Assets.xcassets in Resources */,
+				EF8B69681ED590A700733198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B69711ED590A700733198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B697C1ED590A700733198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8B69561ED590A700733198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B69651ED590A700733198 /* ViewController.m in Sources */,
+				EF8B69621ED590A700733198 /* AppDelegate.m in Sources */,
+				EF8B695F1ED590A700733198 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B696F1ED590A700733198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B69781ED590A700733198 /* ZGImageIOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8B697A1ED590A700733198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8B69831ED590A700733198 /* ZGImageIOUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8B69751ED590A700733198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8B69591ED590A700733198 /* ZGImageIO */;
+			targetProxy = EF8B69741ED590A700733198 /* PBXContainerItemProxy */;
+		};
+		EF8B69801ED590A700733198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8B69591ED590A700733198 /* ZGImageIO */;
+			targetProxy = EF8B697F1ED590A700733198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8B69661ED590A700733198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8B69671ED590A700733198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8B696B1ED590A700733198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8B696C1ED590A700733198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8B69851ED590A700733198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8B69861ED590A700733198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8B69881ED590A700733198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGImageIO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF8B69891ED590A700733198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGImageIO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF8B698B1ED590A700733198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGImageIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGImageIO.app/ZGImageIO";
+			};
+			name = Debug;
+		};
+		EF8B698C1ED590A700733198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGImageIOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGImageIO.app/ZGImageIO";
+			};
+			name = Release;
+		};
+		EF8B698E1ED590A700733198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGImageIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGImageIO;
+			};
+			name = Debug;
+		};
+		EF8B698F1ED590A700733198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGImageIOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zong.ZGImageIOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGImageIO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8B69551ED590A700733198 /* Build configuration list for PBXProject "ZGImageIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B69851ED590A700733198 /* Debug */,
+				EF8B69861ED590A700733198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8B69871ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B69881ED590A700733198 /* Debug */,
+				EF8B69891ED590A700733198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8B698A1ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B698B1ED590A700733198 /* Debug */,
+				EF8B698C1ED590A700733198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8B698D1ED590A700733198 /* Build configuration list for PBXNativeTarget "ZGImageIOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8B698E1ED590A700733198 /* Debug */,
+				EF8B698F1ED590A700733198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8B69521ED590A700733198 /* Project object */;
+}

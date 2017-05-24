@@ -16,6 +16,7 @@
 		EF8B69781ED590A700733198 /* ZGImageIOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69771ED590A700733198 /* ZGImageIOTests.m */; };
 		EF8B69831ED590A700733198 /* ZGImageIOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8B69821ED590A700733198 /* ZGImageIOUITests.m */; };
 		EF8B69911ED590C300733198 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF8B69901ED590C300733198 /* sky.jpg */; };
+		EF8B69931ED5931000733198 /* ZGImageIOExample1.png in Resources */ = {isa = PBXBuildFile; fileRef = EF8B69921ED5931000733198 /* ZGImageIOExample1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EF8B69821ED590A700733198 /* ZGImageIOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGImageIOUITests.m; sourceTree = "<group>"; };
 		EF8B69841ED590A700733198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF8B69901ED590C300733198 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		EF8B69921ED5931000733198 /* ZGImageIOExample1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZGImageIOExample1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		EF8B695D1ED590A700733198 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF8B69921ED5931000733198 /* ZGImageIOExample1.png */,
 				EF8B69901ED590C300733198 /* sky.jpg */,
 				EF8B695E1ED590A700733198 /* main.m */,
 			);
@@ -253,6 +256,7 @@
 				EF8B69911ED590C300733198 /* sky.jpg in Resources */,
 				EF8B696A1ED590A700733198 /* Assets.xcassets in Resources */,
 				EF8B69681ED590A700733198 /* Main.storyboard in Resources */,
+				EF8B69931ED5931000733198 /* ZGImageIOExample1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

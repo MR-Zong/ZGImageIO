@@ -4,4 +4,4 @@
 3. 只显示图片某个特定部分
 
 # 图形效果(Example 1)
-![效果图之图形](https://github.com/MR-Zong/ZGImageIO/blob/master/ZGImageIO/ZGImageIO/sky.jpg)
+![效果图之图形](https://github.com/MR-Zong/ZGImageIO/blob/master/ZGImageIO/ZGImageIO/ZGImageIOExample1.png)
